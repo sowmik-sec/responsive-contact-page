@@ -68,6 +68,9 @@ body {
   .title-container {
     width: 75%;
   }
+  .main-container {
+    width: 85%;
+  }
 }
 
 @media screen and (min-width: 640px) and (max-width: 1024px) {
