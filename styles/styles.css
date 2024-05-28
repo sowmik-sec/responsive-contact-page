@@ -31,3 +31,17 @@ body {
 .h3-sub-title {
   font-size: 32px;
 }
+@media screen and (max-width: 1024px) {
+  .contact-form-icon {
+    margin: 20px auto 50px 30px;
+  }
+  .title-container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title-container {
+    width: 90%;
+  }
+}
