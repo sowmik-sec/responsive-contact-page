@@ -19,3 +19,15 @@ body {
   margin: 20px auto 50px 80px;
   width: 100px;
 }
+.title-container {
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.h1-title {
+  font-size: 64px;
+}
+.h3-sub-title {
+  font-size: 32px;
+}
