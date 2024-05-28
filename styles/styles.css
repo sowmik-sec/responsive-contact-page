@@ -14,6 +14,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-bottom: 50px;
 }
 .contact-form-icon {
   margin: 20px auto 50px 80px;
@@ -71,7 +72,13 @@ textarea {
   border-radius: 15px;
   padding: 15px;
 }
-.textarea {
+button {
+  color: #4036a9;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
 }
 @media screen and (max-width: 1024px) {
   .contact-form-icon {
@@ -99,6 +106,10 @@ textarea {
     margin: 0;
   }
   .textarea {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .btn-div {
     width: 95%;
     margin: 0 auto;
   }
