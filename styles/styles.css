@@ -31,6 +31,36 @@ body {
 .h3-sub-title {
   font-size: 32px;
 }
+.main-container {
+  margin: 150px auto;
+  border-radius: 15px;
+  padding: 30px;
+  width: 45%;
+  background-color: rgba(205, 213, 224, 0.2);
+}
+.input-container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-div {
+  width: 48%;
+}
+.input-field {
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+.mt-5 {
+  margin-top: 20px;
+}
+.select-field {
+  width: 100%;
+}
 @media screen and (max-width: 1024px) {
   .contact-form-icon {
     margin: 20px auto 50px 30px;
@@ -40,7 +70,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 1024px) {
   .title-container {
     width: 90%;
   }
